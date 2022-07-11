@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'BBC Reith';
+  src: url(bbcreith_v2.300/BBCReithSerif_Rg.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1281px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header {
+  height: 40px;
+  background: black;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: 'BBC Reith';
+  font-weight: 700;
+  font-size: 13px;
+}
+
+a {
+  color: white;
+}
+
+.nav__logo {
+  border-right: 1px solid white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.nav__sign {
+  border-right: 1px solid white;
+  padding-left: 18px;
+  width: 170px;
+  height: 100%;
+  display: block;
+}
+
+
+
+ul {
+  display: flex;
+}
