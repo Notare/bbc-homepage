@@ -30,12 +30,12 @@ nav {
   height: 100%;
   display: flex;
   align-items: center;
-  font-family: 'BBC Reith';
-  font-weight: 700;
-  font-size: 13px;
+  font-family: 'BBC Reith', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
 }
 
-a {
+nav a {
   color: white;
 }
 
@@ -52,11 +52,114 @@ a {
   padding-left: 18px;
   width: 170px;
   height: 100%;
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
+.nav__sign:hover {
+  border-bottom: 3px solid #006def;
+}
 
+.nav__sign i {
+  margin-right: 5px;
+}
 
 ul {
   display: flex;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+li {
+  height: 100%;
+  border-right: 1px solid white;
+}
+
+li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 20px;
+}
+
+.home:hover {
+  border-bottom: 3px solid white;
+}
+
+.news:hover {
+  border-bottom: 3px #bb1919 solid;
+}
+
+.sport:hover {
+  border-bottom: 3px #ffd240 solid;
+}
+
+.reel:hover {
+  border-bottom: 3px #0068ff solid;
+}
+
+.worklife:hover {
+  border-bottom: 3px #0052a1 solid;
+}
+
+.travel:hover {
+  border-bottom: 3px #589e50 solid;
+}
+
+.future:hover {
+  border-bottom: 3px #0b407e solid;
+}
+
+.culture:hover {
+  border-bottom: 3px #482878 solid;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  height: 100%;
+  border-right: 1px solid white;
+  margin-right: 20px;
+  padding-right: 15px;
+}
+
+.more:hover {
+  border-bottom: 3px white solid;
+}
+
+.more select {
+  background: black;
+  color: white;
+  border: 0;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+form {
+  height: 100%;
+  position: relative;
+}
+
+form i {
+  position: absolute;
+  right: 8px;
+  top: 20px;
+}
+
+
+input {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+input:focus {
+  outline: 0;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+  font-weight: bold;
 }
