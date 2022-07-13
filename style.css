@@ -185,7 +185,7 @@ main {
 }
 
 main a {
-  color: white;
+  /* color: white; */
 }
 
 main section {
@@ -193,9 +193,11 @@ main section {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.left-section {
+}
 
 .main__div-title {
-  margin: -156px 10px 0;  color: white;
+  /* color: white; */
   font-size: 15px;
 }
 
@@ -210,4 +212,15 @@ main section {
 
 .main__div-title a:hover {
   text-decoration: underline;
+}
+
+.right-section {
+
+}
+
+.right-section .item {
+}
+
+.americans {
+  background: url('3bbc/images/americans.jpg');
 }
