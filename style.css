@@ -133,20 +133,28 @@ li a {
 }
 
 form {
-  height: 100%;
   position: relative;
+}
+
+form:hover {
+  background: gray;
 }
 
 form i {
   position: absolute;
   right: 8px;
-  top: 20px;
+  top: 12px;
 }
 
-
 input {
-  margin-top: 10px;
+  border: 0;
   cursor: pointer;
+  width: 180px;
+  height: 23px;
+}
+
+input:hover {
+  background: gray;
 }
 
 input:focus {
@@ -354,7 +362,128 @@ main section {
     flex-direction: column;
   }
 
-  header {
+  ul,
+  .nav__sign,
+  .more,
+  form,
+  .nav__logo {
+    display: none;
+  }
+
+  /* .nav__logo {
+    border: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+  } */
+
+  i {
+    color: white;
+  }
+
+  .mobile-menu {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  i {
+    cursor: pointer;
+  }
+
+  .fa-circle-user:hover {
+    border-bottom: 3px solid #0052a1;
+  }
+
+  .hamburguer:hover,
+  .fa-magnifying-glass:hover {
+    border-bottom: 3px solid white;
+
+  }
+
+  .mobile-menu a {
+    margin: auto;
+  }
+
+  .hamburguer {
+    margin-right: 20px;
+  }
+
+  .bar {
+    background: white;
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    cursor: pointer;
+  }
+
+  .title {
+    display: none;
+  }
+
+  p {
+    display: none;
+  }
+  
+  .left-section {
+    margin-top: 10px;
+  }
+
+  .left-section div {
     height: 200px;
+    padding-top: 80px;
+  }
+
+  .left-section h1 {
+    font-size: 25px;
+  }
+
+  .right-section {
+    margin-top: 40px;
+    flex-wrap: nowrap;
+    display: block;
+  }
+
+  .right-section h3 {
+    color: black;
+  }
+
+  .right-section .item {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    background: 0;
+  }
+
+  .item div {
+    margin: 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+  }
+
+  .item div a {
+    color: gray;
+    margin-bottom: 10px;
+  }
+
+  .news-title {
+    margin-top: 200px;
+  }
+
+  .bottom img {
+    display: none;
+  }
+
+  .bottom section {
+    border-bottom: 1px solid red;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
   }
 }
