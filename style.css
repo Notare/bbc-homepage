@@ -362,10 +362,6 @@ main section {
     flex-direction: column;
   }
 
-  img {
-    max-width: 100%;
-  }
-
   ul,
   .nav__sign,
   .more,
@@ -449,6 +445,7 @@ main section {
 
   .right-section {
     margin-top: 40px;
+    margin-bottom: 20px;
     flex-wrap: nowrap;
     display: block;
   }
@@ -477,7 +474,7 @@ main section {
   }
 
   .news-title {
-    margin-top: 210px;
+    margin-top: 200px;
   }
 
   .bottom img {
