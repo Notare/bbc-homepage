@@ -370,14 +370,6 @@ main section {
     display: none;
   }
 
-  /* .nav__logo {
-    border: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    margin-top: 7px;
-  } */
-
   i {
     color: white;
   }
@@ -402,7 +394,6 @@ main section {
   .hamburguer:hover,
   .fa-magnifying-glass:hover {
     border-bottom: 3px solid white;
-
   }
 
   .mobile-menu a {
@@ -465,7 +456,6 @@ main section {
     margin: 0;
     border-bottom: 1px solid #d3d3d3;    margin-bottom: 10px;
     padding-bottom: 10px;
-
   }
 
   .item div a {
@@ -474,7 +464,7 @@ main section {
   }
 
   .news-title {
-    margin-top: 200px;
+    margin-top: 220px;
   }
 
   .bottom img {
