@@ -1,9 +1,9 @@
 # BBC Homepage
 
-Original: https://i.imgur.com/3rcd8Ub.png
+Original: https://i.ibb.co/6nVXywL/1.png
 
 My attempt: https://notare.github.io/bbc-homepage
 
-Mobile: https://i.imgur.com/wrpwPQX.png
+Mobile: https://i.ibb.co/KLvMsvN/2.png
 
 Tech used: HTML and CSS
